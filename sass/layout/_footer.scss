@@ -3,9 +3,8 @@
 @use "../utils/helpers";
 
 .footer {
-  margin-top: 300px;
   padding: 64px 0px 72px;
-  background-color: var.$black-color;
+  background: #0D0D0D;
   &__info {
     @extend %flex-between-center;
     @media (max-width: 1100px) {
