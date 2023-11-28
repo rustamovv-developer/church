@@ -81,7 +81,7 @@
     font-family: Roboto Condensed;
     font-size: 48px;
     font-weight: 700;
-    line-height: 64px; 
+    line-height: 64px;
     letter-spacing: -0.48px;
     text-transform: uppercase;
     @media (max-width: 735px) {
@@ -319,12 +319,12 @@
   &__box {
     @extend %flex-between-center;
     @media (max-width: 1300px) {
-        &{
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            gap: 30px;
-        }
+      & {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+      }
     }
   }
   &__card {
@@ -370,5 +370,94 @@
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 4px;
+  }
+}
+// part start
+.part {
+  padding: 128px 0px;
+  &__title {
+    max-width: 554px;
+  }
+  &__box {
+    @extend %flex-between-center;
+    @media (max-width: 1300px) {
+      &{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+      }
+    }
+  }
+  &__left {
+    flex-grow: 1;
+    background-color: #fff5eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 61px 90px;
+    height: 512px;
+    @media (max-width: 500px) {
+      &{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  &__h4 {
+    font-family: Roboto Condensed;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  &__title {
+    max-width: 210px;
+    color: var(--Black, #161722);
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.24px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  &__text {
+    color: var(--Black, #161722);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-bottom: 32px;
+  }
+  &__icons{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    @media (max-width: 400px) {
+      &{
+        display: none;
+      }
+    }
+  }
+  &__icon{
+    font-size: 20px;
+    color: #161722;
+  }
+  &__btn{
+    @extend %secondary-btn;
+  }
+  &__img {
+    max-width: 845px;
+    @media (max-width: 860px) {
+      &{
+        width: 100%;
+      }
+    }
   }
 }

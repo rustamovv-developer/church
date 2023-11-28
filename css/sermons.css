@@ -439,3 +439,28 @@ textarea {
   padding: 2px;
   border-radius: 4px;
 }
+
+#home {
+  background-image: url(../../asset/images/U_b-eSviHvs.png);
+  background-size: cover;
+}
+
+.home-title {
+  padding: 160px 0 16px 0;
+  color: #232536;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.home-list {
+  padding-bottom: 160px;
+  color: #232536;
+  font-family: Roboto Condensed;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+}
