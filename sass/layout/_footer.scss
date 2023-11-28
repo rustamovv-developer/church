@@ -3,9 +3,10 @@
 @use "../utils/helpers";
 
 .footer {
-  margin-top: 300px;
+  // margin-top: 300px;
   padding: 64px 0px 72px;
-  background-color: var.$black-color;
+  // background-color: var.$black-color;
+  background-color: #0D0D0D;
   &__info {
     @extend %flex-between-center;
     @media (max-width: 1100px) {
@@ -26,15 +27,18 @@
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
+    font-family: 'Roboto Condensed';
     margin-bottom: 32px;
   }
   &__addres {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto Condensed';
     gap: 16px;
   }
   &__link {
     @extend %link;
+    font-family: 'Roboto Condensed';
   }
   &__center {
     display: flex;
@@ -51,6 +55,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    font-family: 'Roboto';
   }
   &__icons {
     display: flex;
@@ -61,6 +66,7 @@
     max-width: 437px;
     color: var.$white-color;
     margin-bottom: 32px;
+    font-family: 'Roboto Condensed';
     @media (max-width: 500px) {
         &{
             text-align: center;
