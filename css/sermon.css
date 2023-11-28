@@ -267,6 +267,7 @@ textarea {
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
+  font-family: "Roboto";
 }
 .nav__btn {
   display: inline-block;
@@ -317,6 +318,7 @@ textarea {
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
+  font-family: "Roboto Condensed";
   margin-bottom: 32px;
 }
 .footer__addres {
@@ -327,7 +329,11 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-family: "Roboto Condensed";
   gap: 16px;
+}
+.footer__link {
+  font-family: "Roboto Condensed";
 }
 .footer__center {
   display: -webkit-box;
@@ -350,6 +356,7 @@ textarea {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  font-family: "Roboto";
 }
 .footer__icons {
   display: -webkit-box;
@@ -361,6 +368,7 @@ textarea {
   max-width: 437px;
   color: #ffffff;
   margin-bottom: 32px;
+  font-family: "Roboto Condensed";
 }
 @media (max-width: 500px) {
   .footer__max {
