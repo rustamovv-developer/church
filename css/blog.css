@@ -493,6 +493,11 @@ textarea {
   padding: 230px 0 64px;
   text-align: center;
 }
+@media (max-width: 400px) {
+  .home {
+    padding-top: 150px;
+  }
+}
 .home img {
   width: 100%;
 }
